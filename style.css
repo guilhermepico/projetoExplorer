@@ -3,9 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+* body {
+     
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+}
+
+
 #hero img {
     width: 348px;
     height: 223px;
+
+    display: block;
+    margin: 0 114px 72px 130px;
+
+
   
 }
 
@@ -13,8 +30,42 @@
 
     width: 592px;
     height: 579px;
-    border: solid 1px red;
+   
     margin: auto;
 
    
+}
+
+#headerText {
+    width: 592px;
+    height: auto;
+
+    
+   
+    text-align: center;
+    justify-content: center;
+    
+
+    
+    
+    
+}
+
+h1 {
+    font-size: 49px;
+    
+}
+
+
+
+b {
+    color: #ff9900;
+    
+}
+
+
+#texto2 {
+    color: #7d7987;
+    margin: 32px 9px 0 21px;
+    font-size: 14px;
 }
