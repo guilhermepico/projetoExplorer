@@ -44,7 +44,9 @@
    
     text-align: center;
     justify-content: center;
+
     
+
 
     
     
@@ -68,4 +70,23 @@ b {
     color: #7d7987;
     margin: 32px 9px 0 21px;
     font-size: 14px;
+    line-height: 28px;
+}
+
+footer {
+
+    width: 592px;
+    height: 36px;
+    padding: 72px 4px 33px 0;
+    
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    
+}
+
+a {
+    color: #ff9900;
 }
