@@ -77,16 +77,36 @@ footer {
 
     width: 592px;
     height: 36px;
-    padding: 72px 4px 33px 0;
+    margin: 72px 4px 33px 0;
     
 
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    
+   
+
+    border-top: 1px solid #efeff2;
+    
     
 }
 
 a {
     color: #ff9900;
+}
+
+span {
+
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    
+    height: 28px;
+    width: auto;
+    gap: 40px;
+    
+    font-size: 14px;
+    line-height: 28px;
+
+
 }
